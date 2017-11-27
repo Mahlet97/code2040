@@ -40,7 +40,8 @@ class Spell
   # This instance method should return the reversed name of a spell
   # Tests: `bundle exec rspec -t reverse .`
   def reverse_name
-    'write this method'
+    return name.reverse 
+    #'write this method'
   end
 
   # Spell 2: Counter
